@@ -66,7 +66,6 @@ namespace Assign01
 
                     if(condition == 8){
                         inputFormat = "M/d/yyyy";
-
                     }else if(condition == 9){
                             int position = inputDate.IndexOf("/");
                         if(position == 1){
@@ -85,8 +84,8 @@ namespace Assign01
                     string jsonData = @"{
                     'StentId': '" + studentid + "','txnId': '" + tranid + "','txnDate': " + date + ", 'amount': " + amount + "}";        
                
-                    Console.WriteLine(date);
-                    //Console.WriteLine( requestid+" "+tranid +" "+ date +" "+ amount +" "+ type +" "+ studentid +" "+ name +" "+ verifyRows);
+                    //Console.WriteLine(date);
+                    Console.WriteLine( requestid+" "+tranid +" "+ date +" "+ amount +" "+ type +" "+ studentid +" "+ name +" "+ verifyRows);
                     //SendDataToAPI(requestid,  tranid , date, amount, type, studentid, name, verifyRows);
               
                    
